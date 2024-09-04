@@ -1,0 +1,185 @@
+@media screen and (max-width:1024px) {
+    .box{
+        width: 100%;
+
+    }
+
+    .box1{
+        margin-left: 20px;
+        /* margin-bottom: 20px; */
+        padding-left: 10px;
+    }
+
+    .box3{
+        text-indent: 20px;
+        gap: 10px;
+    }
+
+    .box4{
+        margin: 10px;
+    }
+
+    .box5{
+        margin-left: 20px;
+    }
+
+    .box6i{
+        height: 500px;
+        width: 500px;
+    }
+
+    .box6ii{
+        height: 500px;
+        width: 500px;
+    }
+
+    .box7i{
+        height: 500px;
+        width: 500px;
+    }
+
+    .box7ii{
+        height: 500px;
+        width: 500px;
+    }
+
+    .common{
+        height: 300px;
+    }
+
+    .common-child1{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    .common-child2{
+        height: 400px;
+    }
+
+    .common-child2 img{
+        height: 400px;
+        width: 400px;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    
+.image{
+    margin-top: 20px;
+    margin-left: auto;
+    height: 300px;
+    width: 100px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+.image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.common-child3{
+    height: 500px;
+}
+
+.text1{
+    margin-left: 350px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.text2{
+    margin-left: 450px;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.text3{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.common-child4{
+    height: 500px;
+}
+
+.text4{
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.text5{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.text6{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.txt{
+    height: 60px;
+    width: 700px;  
+}
+
+.text7{
+    font-size: 30px;
+    text-indent: 50px;
+}
+
+.text8{
+    font-size: 20px;
+}
+
+.txt1{
+    margin-top: 10px;
+    margin-right: 100px;
+    height: 120px;
+}
+
+.footer{
+    width: 950px;
+}
+
+.box8{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.box8i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.box8ii{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.box9{
+    height: 30px;
+    width: 250px;
+}
+
+.box9i{
+   font-size: 20px;
+}
+
+.box10i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.button{
+    font-size: 15px;
+    margin-top: 40px;
+}
+}

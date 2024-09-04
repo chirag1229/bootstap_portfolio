@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-nav li a:hover{
+    box-shadow: 2px 2px 4px blueviolet;
+}
+
+.INTRODUCTION{
+    background-size: contain;
+   background-image: url("images/1_ee9Ji2ToUxeYfj3YUQ1xsA.jpg");
+   height: 1200px;
+   width: 100%;
+   background-repeat: no-repeat;
+   justify-content: center;
+}
+
+.INTRODUCTION .hello{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    /* justify-content: center; */
+    text-shadow: 5px 15px 5px  rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 200px;
+}
+
+.scal:hover{ 
+    transform: scale(0.9);
+}
+
+.scal{
+transition: all 0.4s linear;
+}
+
+.img1 {
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.testmonial .p1{
+    border: 1px solid black;
+    height: 200px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.COPYRIGHT{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    color: blueviolet;
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone{
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #050505;
+}
+
+.icone :hover{
+    color: #1b1ee9;
+}

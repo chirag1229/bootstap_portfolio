@@ -1,0 +1,463 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    position: fixed;
+    list-style: none;
+    display: flex;
+}
+
+.box1{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.box2{
+    list-style: none;
+    text-align: end;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(61, 41, 29);
+    list-style: none;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+.box3{
+    text-indent: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    gap: 40px;
+}
+
+.box4{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px 0.625rem 10px 0.625rem;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Poltawski Nowy', serif;
+    box-shadow: 5px 3px 3px #968a8a;
+    
+}
+
+h1{
+    font-size: 20px;
+    padding-left: 15px
+}
+
+.box5{
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-indent: 25px;
+}
+
+.box6{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box6i{
+    border-top-left-radius: 30%;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    background-image: url(PHOTOS/coffee1);
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+
+.box6i:hover{
+    animation: pulse 3s infinite;
+}
+
+.box6ii{
+    border-top-left-radius: 30%;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    background-image: url(PHOTOS/coffee2);
+    background-repeat: no-repeat;
+}
+
+.box6ii:hover{
+    animation: pulse 3s infinite;
+}
+
+.p1{
+    padding: 50px;
+    margin-top:50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.p2{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+.box7{
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box7i{
+    border-top-left-radius: 30%;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    background-image: url(PHOTOS/coffee3);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.box7i:hover{
+    animation: pulse 3s infinite;
+}
+
+.box7ii{
+    border-top-left-radius: 30%;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    background-image: url(PHOTOS/coffee4.webp);
+    background-repeat: no-repeat;
+}
+
+.box7ii:hover{
+    animation: pulse 3s infinite;
+}
+
+.common{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    background-image: url(PHOTOS/coffee4);
+    display: flex;
+}
+
+.common-child1{
+    line-height: normal;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 30px;
+    margin-left: 300px;
+    width: 600px;
+}
+    
+.common-child2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(194, 5, 5);
+    background-image: url(PHOTOS/curve-red.webp);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 200px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.common-child2 img{
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.common-child2 img:hover{
+    animation: pulse 1s infinite;
+}
+
+.image{
+    margin-top: 80px;
+    margin-left: auto;
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.image img{
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.common-child3{
+    background-size: cover;
+    background-image: url(PHOTOS/Homepage-Recipes_0.webp);
+    width: 100%;
+    height: 700px;
+    margin-top: 200px; 
+    justify-content:  center;
+    flex-flow: column wrap;
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: #00000080;
+    background-blend-mode: hue;
+
+}
+
+.text1{
+    font-family: 'Playfair Display', serif;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+.text2{
+    font-family: 'Playfair Display', serif;
+    margin-left: 500px;
+    font-size: 100px;
+}
+
+.text3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.common-child4{
+    background-size: cover;
+    background-image: url(PHOTOS/Mixology-Beauty-Shot-Waffle-Latte-1460x849_0.webp);
+    width: 100%;
+    height: 700px;
+    margin-top: 10px; 
+    justify-content:  center;
+    flex-flow: column wrap;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-color: #22151587;
+    background-blend-mode: hue;
+}
+
+.text4{
+    font-family: 'Playfair Display', serif;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.text5{
+    font-family: 'Playfair Display', serif;
+    /* margin-left: 20px; */
+    font-size: 50px;
+}
+
+.text6{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 100px;
+    
+}
+
+.txt{
+    height: 80px;
+    width: 800px;
+    
+}
+
+.text7{
+    text-indent: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    border-bottom: 3px solid black;
+}
+
+.text8{
+    text-indent: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+}
+
+.txt1{
+    margin-top: 40px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px 10px 10px black;
+   
+}
+
+.box8{
+    line-height: 60px;
+    background-image: url(https://www.nescafe.com/in/themes/custom/nescafe_design_refresh/img/ciam/nescafe-logo-white-square.png);
+    margin-right: 30px;
+    background-size: contain;
+    height: 200px;
+    background-color: rgb(129, 21, 21);
+    border-radius: 600px;
+    background-repeat: no-repeat;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+
+.box8i{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 125px;
+}
+
+.box8ii{
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: 20px; */
+    box-sizing: border-box;
+    padding: 25px 0px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box8iii{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+.box9{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+}
+
+.box9i{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-indent: 50px;
+    line-height: 30px;
+    display: block;
+    font-size: 25px;
+}
+
+.box10i{
+    text-indent: 40px;
+    font-size: 25px;
+}
+
+.footer{
+    height: 800px;
+    width: 1300px;
+    background-color: #d1c5c5;
+    margin: auto;
+    margin-top: 100px;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    font-size: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Roboto Slab', serif; 
+    background-color: #9c5011;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    
+}
+
+.menu{
+    position: relative; 
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.submenu{
+    height: 115px;
+    width: 170px;
+    position: absolute;
+    background-color: rgb(124, 70, 19);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    left: 50px;
+    visibility: hidden;
+   
+}
+
+.submenu a{
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu:hover .submenu{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    left: 50px;
+}
+
+.menu1{
+    position: relative;
+}
+
+.menu1:hover .submenu1{
+    color: aqua;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    left: 50px;
+}
+
+.submenu1{
+    height: 115px;
+    width: 265px;
+    position: absolute;
+    background-color: rgb(124, 70, 19);
+    color: white;
+    visibility: hidden;
+}
+    
+.submenu1 a{
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+}
